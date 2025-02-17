@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
@@ -382,51 +389,31 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+    },{id: "news-projeyi-tübi̇tak-destekleyecek",
+          title: 'Projeyi TÜBİTAK destekleyecek',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/news_4/";
+            },},{id: "news-doç-dr-berna-akgenç-hanedar-dünyanin-en-etki̇li̇-bi̇li̇m-i̇nsanlari-arasinda-yer-aldi",
+          title: 'DOÇ. DR. BERNA AKGENÇ HANEDAR, DÜNYANIN EN ETKİLİ BİLİM İNSANLARI ARASINDA YER ALDI...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/news_1/";
+            },},{id: "news-nem-2024-konferansı-düzenleme-kurulu-üyeleri-rektör-prof-dr-bülent-şengörür-39-ü-ziyaret-etti",
+          title: 'NEM 2024 Konferansı Düzenleme Kurulu Üyeleri, Rektör Prof. Dr. Bülent Şengörür&amp;#39;ü ziyaret etti...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/news_3/";
+            },},{id: "news-doç-dr-berna-akgenç-hanedar-39-ın-yürütücülüğünde-hazırlanan-proje-tübi̇tak-ardeb-1001-kapsamında-desteklenmeye-hak-kazandı",
+          title: 'Doç. Dr. Berna Akgenç Hanedar&amp;#39;ın yürütücülüğünde hazırlanan proje, TÜBİTAK-ARDEB 1001 kapsamında desteklenmeye hak...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/news_2/";
+            },},{id: "projects-fizik-2",
+          title: 'Fizik 2',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',
